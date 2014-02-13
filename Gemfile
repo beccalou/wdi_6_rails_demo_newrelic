@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'newrelic_rpm'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
@@ -64,7 +66,7 @@ end
 
 group :development, :test do
   gem 'faker'
-  
+
   gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
