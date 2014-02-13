@@ -2,13 +2,16 @@ development:
   adapter: postgresql
   encoding: unicode
   database: wdi_6_rails_demo_newrelic_development
+  host: 'localhost'
 
 test:
   adapter: postgresql
   encoding: unicode
   database: wdi_6_rails_demo_newrelic_test
+  host: 'localhost'
 
 production:
   adapter: postgresql
   encoding: unicode
   database: wdi_6_rails_demo_newrelic_production
+  host: 'localhost'
